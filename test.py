@@ -14,7 +14,7 @@ class MeliChallengeTest(TestCase):
 	@patch.object(GoogleAPIHandler, 'get_service')
 	@patch.object(GoogleAPIHandler, 'get_drive_files')	
 	@patch.object(GoogleAPIHandler, 'modify_permissions')
-	def test2(self, mock_perm, mock_files, mock_svc):
+	def test_drive_files_permission(self, mock_perm, mock_files, mock_svc):
 
 		google_api = GoogleAPIHandler()
 		test_file = {'id': '1tBINCkA9aWfKLO4zba_JIXG26JVkRzGJ',
