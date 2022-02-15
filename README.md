@@ -15,9 +15,9 @@ Para correr esta aplicacion, es necesario crear un archivo de configuracion llam
 
 * Primero y principal, se debera tener instalado SQLServer y PIP.
 * Descargar los archivos de este repositorio
-* Ingresar a la carpeta donde estan guardados los archivos, abrir una terminal e instalar las dependencias necesarias para correr la aplicacion. El comando para esto es **pip install -r requirements.txt**
-* Para la ejecucion del programa, en la consola correr **python3 main.py**
-* Para la ejecucion de los tests, en la consola correr **python3 test.py**
+* Ingresar a la carpeta donde estan guardados los archivos, abrir una terminal ahi dentro e instalar las dependencias necesarias para correr la aplicacion. El comando para esto es **pip install -r requirements.txt**
+* Para la ejecucion del programa, en la misma consola correr **python3 main.py**
+* Para la ejecucion de los tests, en la misma consola correr **python3 test.py**
 
 # Archivos presentes
 
